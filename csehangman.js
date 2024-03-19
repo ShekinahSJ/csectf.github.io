@@ -121,7 +121,7 @@ var gameWord = wordChoices[Math.floor(Math.random()*wordChoices.length)];
 function startGame() {
 	var playerConfirmation = confirm("Do you want to play?");
         if (playerConfirmation === true) {
-        	document.getElementById("idResult").innerHTML =("Let's play! Pick a level to start with!");
+        	document.getElementById("idResult").innerHTML =("Let's play!");
             	gallows();
             	createLetterBlanks();
           } else {
